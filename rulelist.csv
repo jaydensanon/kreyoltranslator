@@ -1,0 +1,172 @@
+category,id,rule,pattern,kreyol_example,english_example,notes
+the,THE01,"Definite article comes AFTER the noun, not before it",NOUN + DET,liv la,the book,"Kreyòl has no 'the' before the noun; the article is attached at the end of the noun phrase"
+the,THE02,"Use 'la' after a word ending in an oral consonant",NOUN(oral consonant) + la,liv la; tab la; chat la,the book; the table; the cat,"Oral consonants: b c d f g j k l p r s t v z ch y"
+the,THE03,"Use 'a' after a word ending in an oral vowel",NOUN(oral vowel) + a,papa a; bato a; kafe a,the father; the boat; the coffee,"Oral vowels: a e è i o ò ou"
+the,THE04,"Use 'an' after a word ending in a nasal vowel",NOUN(nasal vowel) + an,chen an; pen an; pon an,the dog; the bread; the bridge,"Nasal vowels: an en on. Words ending in -oun -in -enn -àn end in a nasal CONSONANT (see THE06)"
+the,THE05,"Use 'an' after an oral vowel that is preceded by a nasal consonant (m/n)",NOUN(m/n + vowel) + an,zanmi an; fanmi an; lanmi an,the friend; the family; the friendship,"Nasal sound spreads to the article"
+the,THE06,"Use 'nan' after a word ending in a nasal consonant (m/n/ng)",NOUN(m/n/ng) + nan,machin nan; fanm nan; moun nan,the car; the woman; the person,"Some speakers/regions say 'lan' instead of 'nan'"
+the,THE07,"Plural definite article is 'yo' (replaces la/a/an/nan)",NOUN + yo,liv yo; chen yo; machin yo,the books; the dogs; the cars,"'yo' is invariable - it does not change with the final sound"
+the,THE08,"Indefinite article 'yon' (or 'on') comes BEFORE the noun",yon + NOUN,yon liv; on chen,a book; a dog,"'yon' = a/an/one"
+the,THE09,"No article for indefinite plural or generic meaning",NOUN,Mwen achte liv,I bought books / I bought a book (generic),"Bare noun can be generic, plural or indefinite depending on context"
+the,THE10,"Article goes at the very end of the whole noun phrase (after adjectives and possessors)",NOUN + ADJ + POSS + DET,machin wouj la; machin papa m nan,the red car; my father's car,"The final word of the phrase decides la/a/an/nan"
+the,THE11,"Article goes at the end of a relative clause attached to the noun",NOUN + ki + CLAUSE + DET,moun ki vini an,the person who came,"Determiner is placed after the whole relative clause"
+bangs,BANGS01,"BANGS adjectives come BEFORE the noun (Beauty Age Number Goodness Size)",BANGS_ADJ + NOUN,bèl fi; ti chen,beautiful girl; little dog,"Most other adjectives come AFTER the noun"
+bangs,BANGS02,B = Beauty adjectives precede the noun,bèl + NOUN,yon bèl kay,a beautiful house,"bèl (beautiful/nice) ; also 'lèd' (ugly) can precede: yon lèd figi"
+bangs,BANGS03,A = Age adjectives precede the noun,jenn/vye/vyèy/nouvo + NOUN,yon jenn gason; yon vye machin,a young man; an old car,"jenn (young) ; vye/vyèy (old) ; nouvo (new) usually precedes too"
+bangs,BANGS04,N = Number (cardinal and ordinal) precedes the noun,NUMBER + NOUN,de liv; twa moun; premye jou; dènye fwa,two books; three people; first day; last time,"Cardinal and ordinal numbers plus 'dènye' (last) precede"
+bangs,BANGS05,G = Goodness adjectives precede the noun,bon/move + NOUN,yon bon manje; yon move nouvèl,a good meal; bad news,"bon (good) ; move (bad)"
+bangs,BANGS06,S = Size adjectives precede the noun,gwo/gran/ti/piti + NOUN,yon gwo kay; yon ti chat; yon gran fanmi,a big house; a little cat; a big family,"gwo (big) ; gran (big/tall/great) ; ti/piti (small)"
+bangs,BANGS07,"Multiple BANGS adjectives stack before the noun, others still follow",BANGS + BANGS + NOUN + ADJ,yon bèl ti kay wouj,a beautiful little red house,"Typical order: Beauty/Goodness > Age > Size > NOUN > other ADJ"
+bangs,BANGS08,"'ti' (small) before a noun can also mean young, dear, or a small amount",ti + NOUN,ti moun; ti kras,child; a little bit,"ti + noun often forms a compound with a special meaning (timoun = child)"
+adjectives,ADJ01,Most adjectives (color/nationality/shape/state) come AFTER the noun,NOUN + ADJ,yon machin wouj; yon kay blan,a red car; a white house,"Exception: BANGS adjectives (see bangs category)"
+adjectives,ADJ02,Adjectives do not change for gender or number,ADJ (invariable),chen nwa yo; fanm nwa a,the black dogs; the black woman,"No -s plural, no feminine form"
+adjectives,ADJ03,"No verb 'to be' between subject and adjective - the adjective acts like a verb",SUBJ + ADJ,Li bèl; Mwen fatige,She is beautiful; I am tired,"Never say 'Li se bèl'"
+adjectives,ADJ04,Tense markers can go directly before an adjective,SUBJ + TMA + ADJ,Li te malad; L ap malad,He was sick; He is getting sick,"te + ADJ = past state ; ap + ADJ = becoming"
+adjectives,ADJ05,"Comparative: pi + ADJ + pase",pi + ADJ + pase + NOUN,Jan pi gran pase Pyè,John is taller than Peter,"'pase' = than"
+adjectives,ADJ06,"Superlative: pi + ADJ + (nan/pase tout)",DET + pi + ADJ + NOUN or pi + ADJ + nan,Se li ki pi bèl nan klas la,She is the most beautiful in the class,"Superlative is pi + ADJ with a context group: nan / pase tout / la"
+adjectives,ADJ07,"Equality: osi + ADJ + pase/tankou, or menm + NOUN + ak",osi + ADJ + tankou,Li osi wo tankou m,He is as tall as me,"Also: Yo gen menm laj (they are the same age)"
+adjectives,ADJ08,"Intensifiers: trè/byen before ADJ, anpil after ADJ",trè + ADJ | ADJ + anpil,Li trè bèl; Li bèl anpil,She is very beautiful,"'twò' = too (twò cho = too hot)"
+adjectives,ADJ09,Reduplication of an adjective intensifies it,ADJ + ADJ,Dlo a cho cho,The water is very hot,"Also works with some verbs and adverbs"
+adjectives,ADJ10,'bon' and 'move' after 'pi' are irregular in meaning,pi bon | pi mal,Sa pi bon; Sa pi mal,That is better; That is worse,"pi bon = better ; pi mal/pi move = worse"
+nouns,NOUN01,Nouns have no grammatical gender,NOUN,liv la; tab la,the book; the table,"Same article for all nouns regardless of gender"
+nouns,NOUN02,Nouns do not change form for plural - plural is marked by 'yo' or a number,NOUN + yo | NUMBER + NOUN,liv yo; twa liv,the books; three books,"Never add -s"
+nouns,NOUN03,"Natural gender uses separate words or 'gason'/'fi/fanm' after the noun",NOUN + gason/fi,pitit gason; pitit fi,son; daughter,"Some pairs: frè/sè ; papa/manman ; nonm/fanm"
+nouns,NOUN04,Possession: possessed NOUN + possessor NOUN (no 'of' needed),NOUN + NOUN(owner),liv Jan; machin papa m,John's book; my father's car,"Order is the reverse of English 's"
+nouns,NOUN05,Possessed noun with definite article: article goes after the possessor,NOUN + OWNER + DET,machin Jan an,John's car (the specific one),"Article choice follows the last word (Jan -> an)"
+nouns,NOUN06,"Compound nouns: NOUN + NOUN, head first",NOUN(head) + NOUN(modifier),pye bwa; chanm dòmi; dlo kokoye,tree; bedroom; coconut water,"Second noun describes the first"
+nouns,NOUN07,'moun' can be used for 'person/people/someone',moun,Gen moun la,Someone is there,"tout moun = everyone ; pèsonn/okenn moun = nobody"
+nouns,NOUN08,Noun phrase full order,yon/QUANT + BANGS + NOUN + ADJ + POSS + DEM/DET + yo,bèl ti kay wouj mwen sa yo,these beautiful little red houses of mine,"Master template for building a noun phrase"
+pronouns,PRON01,1st person singular: mwen (short m),mwen | m,Mwen grangou; M grangou,I am hungry,"Same form for I / me / my"
+pronouns,PRON02,2nd person singular: ou (short w),ou | w,Ou bèl; W ap vini?,You are beautiful; Are you coming?,"Same form for you / your"
+pronouns,PRON03,"3rd person singular: li (short l) - no gender",li | l,Li la; L ap manje,He/She/It is here; He/she is eating,"Same form for he / she / it / him / her / his / its"
+pronouns,PRON04,1st person plural: nou (short n),nou | n,Nou prale,We are going,"Same form for we / us / our"
+pronouns,PRON05,2nd person plural: nou (short n) - same as 'we',nou | n,Nou tout vini,All of you came / We all came,"Context decides we vs you-plural"
+pronouns,PRON06,3rd person plural: yo (short y),yo | y,Yo vini; Y ap vini,They came; They are coming,"Same form for they / them / their ; also impersonal 'one/people'"
+pronouns,PRON07,Subject and object pronouns are the same; object goes after the verb,SUBJ + VERB + OBJ_PRON,Mwen renmen ou; Li wè m,I love you; He sees me,"No separate object forms"
+pronouns,PRON08,Possessive: pronoun goes AFTER the noun,NOUN + PRON,liv mwen; kay ou; papa l,my book; your house; his/her father,"Short forms allowed: liv mwen -> liv m"
+pronouns,PRON09,Possessive + definite article (that specific one of mine),NOUN + PRON + DET,liv mwen an; kay li a,my book (the one); his house (the one),"Article choice follows the pronoun's final sound: mwen->an ; li->a ; yo->a ; ou->a ; nou->an"
+pronouns,PRON10,Possessive pronoun (mine/yours/...): pa + PRON,pa + PRON,Sa se pa m; Pa w la pi bèl,That is mine; Yours is prettier,"pa m/pa w/pa l/pa nou/pa yo"
+pronouns,PRON11,Reflexive: tèt + PRON,VERB + tèt + PRON,Li blese tèt li,He hurt himself,"tèt mwen = myself ; tèt ou = yourself ; etc."
+pronouns,PRON12,Emphatic 'self': PRON + menm,PRON + menm,Mwen menm mwen pa konnen,I myself do not know,"'menm' = same/even/self"
+pronouns,PRON13,"Short forms: use m/w/l/n/y mainly next to a vowel (before or after)",PRON(short) + VOWEL-initial word,M ap vini; Mwen wè l,I am coming; I see him,"Long form is always acceptable ; short form after a consonant is avoided in writing"
+pronouns,PRON14,Impersonal 'yo' is used for passive meaning,yo + VERB + OBJ,Yo vòlè machin nan,The car was stolen (they stole the car),"Kreyòl rarely uses a true passive"
+demonstrative,DEM01,"Demonstrative 'sa a' (this/that) comes AFTER the noun",NOUN + sa a,liv sa a; machin sa a,this/that book; this/that car,"Kreyòl does not distinguish this vs that by default"
+demonstrative,DEM02,Plural demonstrative: sa yo,NOUN + sa yo,liv sa yo,these/those books,"'yo' replaces 'a'"
+demonstrative,DEM03,"The 'a' in 'sa a' may follow the article rules (sa la / sa nan)",NOUN + sa + la/a/an/nan,liv sa la; moun sa nan,this book; this person,"Regional variation ; 'sa a' is the standard written form"
+demonstrative,DEM04,Distance can be added with 'la' or 'lòtbò a',NOUN + sa a + la/lòtbò a,kay sa a la,that house there,"Optional - used for emphasis"
+demonstrative,DEM05,"'sa' alone is a pronoun: this/that/it",sa,Sa bon; Kisa sa ye?,That is good; What is that?,"'sa' also = what (relative): sa ou vle"
+demonstrative,DEM06,Demonstrative goes after adjectives and possessors,NOUN + ADJ + POSS + sa a,machin wouj mwen sa a,this red car of mine,"Demonstrative/determiner always ends the noun phrase"
+determiner,DETR01,'chak' (each/every) comes before the noun,chak + NOUN,chak jou,every day,
+determiner,DETR02,'tout' (all/every) comes before the noun,tout + NOUN,tout moun; tout jounen an,everyone; all day,"'tout' can also follow a pronoun: nou tout (all of us)"
+determiner,DETR03,'kèk' (some/a few) comes before the noun,kèk + NOUN,kèk moun,some people,
+determiner,DETR04,'plizyè' (several) comes before the noun,plizyè + NOUN,plizyè fwa,several times,
+determiner,DETR05,'anpil' (many/a lot of) comes before the noun,anpil + NOUN,anpil lajan,a lot of money,"After a verb or ADJ it means 'a lot/very': li travay anpil"
+determiner,DETR06,'okenn' (no/any) is used with negation,pa + VERB + okenn + NOUN,Mwen pa gen okenn lajan,I have no money,
+determiner,DETR07,'lòt' (other) comes before the noun,lòt + NOUN,yon lòt jou,another day,
+determiner,DETR08,'menm' (same) comes before the noun,menm + NOUN,menm koulè,the same color,
+determiner,DETR09,'ase' (enough) comes before the noun,ase + NOUN,ase manje,enough food,
+copula,COP01,'se' links a subject to a NOUN (to be = identity),SUBJ + se + NOUN,Li se doktè,He/She is a doctor,"Only with nouns/pronouns - never with adjectives or places"
+copula,COP02,"No copula before adjectives",SUBJ + ADJ,Li grangou,He is hungry,"See ADJ03"
+copula,COP03,No copula before a location,SUBJ + PLACE,Li lakay; Li nan lekòl la,He is at home; He is in the school,
+copula,COP04,'ye' replaces 'se' when the predicate is moved to the front or at the end of a sentence,QWORD + SUBJ + ye,Kouman ou ye?; Kote li ye?; Kisa sa ye?,How are you?; Where is he?; What is that?,"'ye' must be sentence-final"
+copula,COP05,'se' + NOUN/PRON alone means 'it is',se + NOUN/PRON,Se mwen; Se vre,It is me; It is true,
+copula,COP06,"'gen/genyen' = to have, and 'there is/there are'",gen + NOUN,Gen yon pwoblèm; Mwen gen de pitit,There is a problem; I have two children,"'genyen' is used at the end of a sentence: Wi, mwen genyen"
+copula,COP07,Focus/cleft: se + FOCUS + ki/... to emphasize,se + NOUN + ki + VERB,Se Jan ki vini,It is John who came,"Use 'ki' when focusing the subject"
+copula,COP08,Predicate cleft: se + VERB + SUBJ + VERB (repeat verb for emphasis),se + VERB + SUBJ + TMA + VERB,Se kouri li kouri,He really ran,"Emphasizes the action"
+tense,TNS01,"No marker + action verb = completed past",SUBJ + VERB(action),Mwen manje,I ate,"Without a marker, action verbs usually mean past"
+tense,TNS02,"No marker + stative verb/adjective = present",SUBJ + VERB(stative),Mwen konnen; Mwen renmen l,I know; I love him,"Stative verbs: konnen, renmen, vle, genyen, bezwen, sanble, etc."
+tense,TNS03,te (short t) = past / past before past,SUBJ + te + VERB,Mwen te manje,I ate / I had eaten,"With a stative verb: Mwen te konnen = I knew"
+tense,TNS04,ap (or ape/pe) = progressive (present continuous),SUBJ + ap + VERB,M ap manje,I am eating,"Can also mean near future: M ap vini demen = I will come tomorrow"
+tense,TNS05,ap = definite future (with time word),SUBJ + ap + VERB + TIME,N ap wè demen,We will see each other tomorrow,
+tense,TNS06,va / ava / a = future,SUBJ + va/a + VERB,Mwen va ale; M a ale,I will go,"'a' is used after a vowel or short pronoun: m a / n a / y a"
+tense,TNS07,pral / prale / pra = near future (going to),SUBJ + pral + VERB,Mwen pral manje,I am going to eat,
+tense,TNS08,t ap (te + ap) = past progressive,SUBJ + t ap + VERB,Li t ap dòmi,He was sleeping,"Also used in conditional 'would': Si m te gen lajan m t ap achte l"
+tense,TNS09,ta (te + a) = conditional (would),SUBJ + ta + VERB,Mwen ta renmen sa,I would like that,
+tense,TNS10,ta + dwe = should,SUBJ + ta dwe + VERB,Ou ta dwe dòmi,You should sleep,
+tense,TNS11,"sot / sòt / fèk / fenk = recent past (just)",SUBJ + sot/fèk + VERB,Li fèk rive; Mwen sot manje,He just arrived; I just ate,
+tense,TNS12,konn / kon = habitual,SUBJ + konn + VERB,Li konn vini isit,He usually comes here,"'konn' also means 'know how to': Li konn naje"
+tense,TNS13,te konn = used to (past habit),SUBJ + te konn + VERB,Mwen te konn jwe foutbòl,I used to play soccer,
+tense,TNS14,dwe = must / obligation or probability,SUBJ + dwe + VERB,Ou dwe travay,You must work,"dwe + stative = probably: Li dwe malad (he must be sick)"
+tense,TNS15,kapab / kab / ka = can / able,SUBJ + ka + VERB,Mwen ka ede w,I can help you,
+tense,TNS16,vin / vini = become / come to,SUBJ + vin + ADJ/VERB,Li vin grangou,He became hungry,
+tense,TNS17,te + fin / fini = had finished (completive),SUBJ + fin + VERB,Mwen fin manje,I finished eating / I have eaten,
+tense,TNS18,Imperative: bare verb with no subject,VERB,Vini!; Chita!,Come!; Sit!,"Add 'non' or 'tanpri' to soften: Vini non!"
+tense,TNS19,"'Ann' / 'An nou' = let's",ann + VERB,Ann ale!,Let's go!,
+marker_order,ORD01,"Order of markers: SUBJ + (pa) + (te) + (ta/va/ap/pral) + (konn/fin/sot) + (dwe/ka) + VERB",SUBJ + NEG + ANT + MOOD/ASP + HAB/COMP + MODAL + VERB,Li pa t ap ka vini,He would not have been able to come,"Negation always comes first, before every marker"
+marker_order,ORD02,te + ap -> t ap,te + ap = t ap,M t ap travay,I was working,"'te' shortens to 't' before a vowel"
+marker_order,ORD03,te + a/va -> ta,te + a = ta,Li ta vini,He would come,
+marker_order,ORD04,pa + ap -> p ap,pa + ap = p ap,Mwen p ap vini,I am not coming / I will not come,"Future is negated with p ap - not 'pa va'"
+marker_order,ORD05,pa + te -> pa t (before vowel/ap),pa + te + ap = pa t ap,Li pa t ap manje,He was not eating,
+marker_order,ORD06,Pronoun short form joins following marker,PRON + ap = m ap/w ap/l ap/n ap/y ap,L ap vini,He/she is coming,
+marker_order,ORD07,Verb short forms before an object or another verb,ale->al/a ; vini->vin ; konnen->konn ; kapab->ka/kab ; rete->ret,M al lakay; Li vin wè m,I go home; He came to see me,"Full form is used at the end of a sentence: M ap ale"
+marker_order,ORD08,Serial verbs: two verbs in a row describe one action,VERB + VERB,Pote l vini; Kouri ale,Bring it; Run away,"Direction verbs (ale, vini, soti, monte, desann) often follow the main verb"
+negation,NEG01,'pa' goes BEFORE the verb and before all tense markers,SUBJ + pa + (TMA) + VERB,Mwen pa konnen; Li pa t vini,I do not know; He did not come,
+negation,NEG02,pa ... janm = never,SUBJ + pa + janm + VERB,Mwen pa janm wè l,I have never seen him,
+negation,NEG03,pa ... ankò = no longer / not anymore,SUBJ + pa + VERB + ankò,Li pa travay la ankò,He does not work there anymore,
+negation,NEG04,pa ... anyen = nothing,SUBJ + pa + VERB + anyen,Mwen pa wè anyen,I did not see anything,"Double negation is normal and required"
+negation,NEG05,pa ... pèsonn = nobody (object),SUBJ + pa + VERB + pèsonn,Mwen pa wè pèsonn,I did not see anybody,"As subject: Pèsonn pa vini (nobody came)"
+negation,NEG06,poko = not yet,SUBJ + poko + VERB,Li poko rive,He has not arrived yet,"'poko' replaces 'pa'"
+negation,NEG07,pa ... ditou = not at all,SUBJ + pa + VERB + ditou,Mwen pa renmen sa ditou,I do not like that at all,
+negation,NEG08,ni ... ni = neither ... nor,pa + VERB + ni X + ni Y,Li pa bwè ni kafe ni te,He drinks neither coffee nor tea,
+negation,NEG09,pa gen = there is no / do not have,pa gen + NOUN,Pa gen dlo,There is no water,
+negation,NEG10,Negative imperative: pa + VERB,pa + VERB,Pa fè sa!,Do not do that!,
+negation,NEG11,'non' = no (answer) ; 'wi' = yes,non | wi,"Non, mwen pa vle",No I do not want to,"'non' can also go at the end for emphasis: Mwen pa konnen non"
+question,QST01,Yes/no question: add 'Èske' at the start (or use rising intonation),Èske + STATEMENT,Èske ou grangou?,Are you hungry?,"Word order does not change"
+question,QST02,Question words go at the start of the sentence,QWORD + SUBJ + VERB,Kote ou prale?,Where are you going?,
+question,QST03,kisa / ki sa / sa = what,kisa + SUBJ + VERB,Kisa ou vle?,What do you want?,
+question,QST04,ki moun / kiyès = who,ki moun + SUBJ + VERB,Ki moun ou ye?,Who are you?,
+question,QST05,"When asking about the SUBJECT, add 'ki' after the question word",QWORD + ki + VERB,Ki moun ki vini?; Kisa ki rive?,Who came?; What happened?,
+question,QST06,kote / ki kote = where,kote + SUBJ + VERB,Kote li ye?,Where is he?,
+question,QST07,kilè / ki lè = when,kilè + SUBJ + VERB,Kilè ou ap vini?,When are you coming?,
+question,QST08,kouman / kijan / ki jan = how,kouman + SUBJ + VERB,Kouman ou rele?,What is your name? (How are you called?),
+question,QST09,poukisa / pouki = why,poukisa + SUBJ + VERB,Poukisa ou kriye?,Why did you cry?,
+question,QST10,konbyen = how much / how many,konbyen + (NOUN) + SUBJ + VERB,Konbyen sa koute?; Konbyen pitit ou genyen?,How much does that cost?; How many children do you have?,
+question,QST11,ki + NOUN = which/what + noun,ki + NOUN + SUBJ + VERB,Ki liv ou li?; Ki laj ou?,Which book did you read?; How old are you?,
+question,QST12,Sentence-final 'ye' when the question asks about the predicate,QWORD + SUBJ + ye,Kouman ou ye?,How are you?,"See COP04"
+question,QST13,Tag questions: pa vre? / non?,STATEMENT + pa vre?,Ou la pa vre?,You are here aren't you?,
+connection,CON01,e / ak / avèk = and (joins nouns),NOUN + ak + NOUN,Jan ak Mari,John and Mary,"'ak' also = with"
+connection,CON02,epi / e = and (then) (joins clauses),CLAUSE + epi + CLAUSE,Li manje epi li dòmi,He ate and then slept,
+connection,CON03,men = but,CLAUSE + men + CLAUSE,Mwen vle ale men mwen pa ka,I want to go but I cannot,
+connection,CON04,oswa / ou = or,X + oswa + Y,Kafe oswa te?,Coffee or tea?,
+connection,CON05,paske / poutèt = because,CLAUSE + paske + CLAUSE,Mwen pa vini paske m te malad,I did not come because I was sick,
+connection,CON06,donk / kidonk = so / therefore,CLAUSE + donk + CLAUSE,Li fè nwa donk ann ale,It is dark so let's go,
+connection,CON07,si = if,si + CLAUSE + CLAUSE,Si ou vini m ap kontan,If you come I will be happy,"Hypothetical: Si m te... m t ap... (If I had... I would...)"
+connection,CON08,lè = when (not a question),lè + CLAUSE + CLAUSE,Lè l rive rele m,When he arrives call me,
+connection,CON09,pandan = while / during,pandan + CLAUSE,Pandan m t ap dòmi li vini,While I was sleeping he came,
+connection,CON10,menmsi = even if / even though,menmsi + CLAUSE,Menmsi l ap fè lapli m ap vini,Even if it rains I will come,
+connection,CON11,pou = so that / in order to,pou + VERB/CLAUSE,Mwen travay pou m ka manje,I work so that I can eat,
+connection,CON12,ki = who/that/which (relative - subject),NOUN + ki + VERB,Moun ki la a se frè m,The person who is here is my brother,
+connection,CON13,Relative object: no word needed (ke/ki optional),NOUN + SUBJ + VERB + DET,Liv mwen li a bon,The book (that) I read is good,"'ke' is optional and more formal"
+connection,CON14,ke = that (introducing a clause),VERB + ke + CLAUSE,Li di ke l ap vini,He said that he is coming,"Often dropped: Li di l ap vini"
+connection,CON15,kòm = since / as,kòm + CLAUSE,Kòm ou la ede m,Since you are here help me,
+preposition,PREP01,nan / lan = in / at / inside,nan + NOUN,Li nan kay la,He is in the house,"Also used for 'to' with places: Mwen prale nan mache a"
+preposition,PREP02,sou = on / about,sou + NOUN,Liv la sou tab la,The book is on the table,
+preposition,PREP03,anba = under / below,anba + NOUN,Chat la anba kabann nan,The cat is under the bed,
+preposition,PREP04,anwo = above / up / on top of,anwo + NOUN,Anwo mòn nan,Up on the mountain,
+preposition,PREP05,devan = in front of,devan + NOUN,Devan legliz la,In front of the church,
+preposition,PREP06,dèyè = behind,dèyè + NOUN,Dèyè kay la,Behind the house,
+preposition,PREP07,bò kote / akote = beside / next to,bò kote + NOUN,Li chita bò kote m,He is sitting next to me,
+preposition,PREP08,ak / avèk / avè = with,ak + NOUN,Mwen vini ak zanmi m,I came with my friend,
+preposition,PREP09,pou = for / to,pou + NOUN/VERB,Sa se pou ou,This is for you,
+preposition,PREP10,de / sot / soti = from / of,soti + PLACE,Mwen soti Ayiti,I am from Haiti,"'de' is mostly used in fixed expressions: de tan zan tan"
+preposition,PREP11,lakay = at home / at someone's house,lakay + (PRON/NOUN),Li lakay li; lakay Jan,He is at his home; at John's house,
+preposition,PREP12,kot / kote = at (someone's place),kot + NOUN,Mwen kot Mari,I am at Mary's,
+preposition,PREP13,anndan / deyò = inside / outside,anndan + NOUN | deyò,Li anndan an; Li deyò,He is inside; He is outside,
+preposition,PREP14,ant / antre = between,ant + X + ak + Y,Ant ou menm ak mwen,Between you and me,
+preposition,PREP15,anvan / apre = before / after,anvan + NOUN/CLAUSE,Anvan manje; Apre lekòl,Before eating; After school,
+preposition,PREP16,san = without,san + NOUN/VERB,San lajan; San di anyen,Without money; Without saying anything,
+preposition,PREP17,jis / jiska = until / up to,jis + TIME/PLACE,Jis demen,Until tomorrow,
+preposition,PREP18,kont = against,kont + NOUN,Li kont lide a,He is against the idea,
+preposition,PREP19,Places/countries usually take no preposition after motion verbs,VERB(motion) + PLACE,Mwen prale Pòtoprens,I am going to Port-au-Prince,"ale/vini/rive + place name with no 'to'"
+contraction,CTR01,mwen -> m ; ou -> w ; li -> l ; nou -> n ; yo -> y,PRON short form,M renmen w,I love you,"Used mostly next to vowels and in speech"
+contraction,CTR02,Short object pronoun attaches after a verb ending in a vowel,VERB(vowel) + l/m/w/n/y,Mwen wè l; Li rele m,I see him; He called me,
+contraction,CTR03,te -> t before a vowel,t + ap/a,Li t ap vini,He was coming,
+contraction,CTR04,pa -> p before ap,p ap,M p ap ale,I am not going,
+contraction,CTR05,nan -> n or lan in fast speech,nan,Li n kay la,He is in the house,"Write 'nan' in standard spelling"
+contraction,CTR06,ki -> k before a vowel,k + ap,Moun k ap vini an,The person who is coming,
+orthography,ORT01,Every letter is pronounced - no silent letters,,lekòl,school,"Spelling is phonetic (official 1979 orthography)"
+orthography,ORT02,è (open e) vs e (closed e),è | e,fè vs fete,do/make vs party,"Accent changes the word"
+orthography,ORT03,ò (open o) vs o (closed o),ò | o,bò vs bo,side vs kiss,"ò is open like 'law' ; o is closed like 'go'"
+orthography,ORT04,"an, en, on are nasal vowels; use 'àn' when a and n are pronounced separately",an | àn,pàn; chen,breakdown (a+n said separately); dog (nasal en),"Grave accent on 'à' marks non-nasal 'a' before 'n'"
+orthography,ORT05,ch = sh sound ; j = zh sound ; g is always hard ; s is always s,ch | j | g | s,chat; jou; gade; sèl,cat; day; look; salt,
+orthography,ORT06,'ou' is one vowel sound (like 'oo'),ou,Ou; jou,you; day,"'w' is its consonant form"
