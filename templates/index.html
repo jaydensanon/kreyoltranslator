@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>What do you want to translate?</h1>
+  <p class="hint">Type a word or a sentence in English or Kreyòl. The language is detected for you.</p>
+  <form action="{{ url_for('translate') }}" method="get">
+    <input type="text" name="text" placeholder="e.g. dog, manje, I love my family" autofocus required>
+    <button type="submit">Translate</button>
+  </form>
+{% endblock %}

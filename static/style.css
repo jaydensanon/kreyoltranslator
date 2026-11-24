@@ -1,0 +1,84 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #00209f 0%, #00209f 50%, #d21034 50%, #d21034 100%);
+  color: #1d1d1f;
+}
+
+.card {
+  width: 100%;
+  max-width: 640px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 36px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, .25);
+}
+
+.brand {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #00209f;
+  text-decoration: none;
+  letter-spacing: .02em;
+}
+
+h1 { margin: 0 0 8px; font-size: 1.8rem; }
+.hint { margin: 0 0 24px; color: #666; }
+
+form { display: flex; gap: 10px; flex-wrap: wrap; }
+
+input[type=text] {
+  flex: 1 1 260px;
+  padding: 14px 16px;
+  font-size: 1.1rem;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+}
+input[type=text]:focus { border-color: #00209f; }
+
+button, .button {
+  display: inline-block;
+  padding: 14px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #d21034;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+button:hover, .button:hover { background: #a80c29; }
+
+.pair { display: grid; gap: 14px; grid-template-columns: 1fr 1fr; margin-bottom: 18px; }
+@media (max-width: 560px) { .pair { grid-template-columns: 1fr; } }
+
+.box, .example {
+  padding: 18px;
+  border-radius: 12px;
+  background: #f4f5f9;
+}
+.box.accent { background: #eef1ff; }
+.example { background: #fff5f6; margin-bottom: 24px; }
+
+.label {
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #777;
+}
+
+.word { margin: 8px 0 0; font-size: 1.6rem; font-weight: 700; word-break: break-word; }
+.word.missing { color: #999; font-weight: 500; font-size: 1.2rem; }
+.others { margin: 10px 0 0; color: #555; font-size: .9rem; }
+
+.example .kreyol { margin: 8px 0 4px; font-size: 1.3rem; font-weight: 600; }
+.example .english { margin: 0; color: #666; font-style: italic; }

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}{{ text }} – Kreyòl Translator{% endblock %}
+{% block content %}
+  <section class="pair">
+    <div class="box">
+      <span class="label">Original · {{ source_name }}</span>
+      <p class="word">{{ text }}</p>
+    </div>
+    <div class="box accent">
+      <span class="label">Translation · {{ target_name }}</span>
+      {% if translation %}
+        <p class="word">{{ translation }}</p>
+      {% else %}
+        <p class="word missing">Word not found</p>
+      {% endif %}
+      {% if others %}
+        <p class="others">Also: {{ others[:5] | join(", ") }}</p>
+      {% endif %}
+    </div>
+  </section>
+
+  {% if example %}
+    <section class="example">
+      <span class="label">Used in a sentence</span>
+      <p class="kreyol">{{ example[0] }}</p>
+      <p class="english">{{ example[1] }}</p>
+    </section>
+  {% endif %}
+
+  <a class="button" href="{{ url_for('index') }}">Translate something else</a>
+{% endblock %}
