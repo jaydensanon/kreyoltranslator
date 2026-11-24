@@ -58,6 +58,28 @@ button, .button {
 }
 button:hover, .button:hover { background: #a80c29; }
 
+.langs {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 6px 0 0;
+  padding: 0;
+  border: none;
+  color: #444;
+}
+.langs legend { padding: 0; margin-bottom: 6px; font-size: .85rem; color: #777; }
+.langs label { cursor: pointer; }
+
+.switch {
+  margin: 0 0 18px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background: #fff8e1;
+  color: #5c4a00;
+}
+.switch a { color: #00209f; font-weight: 600; }
+
 .pair { display: grid; gap: 14px; grid-template-columns: 1fr 1fr; margin-bottom: 18px; }
 @media (max-width: 560px) { .pair { grid-template-columns: 1fr; } }
 

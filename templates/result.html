@@ -19,6 +19,11 @@
     </div>
   </section>
 
+  {% if switch_url %}
+    <p class="switch">“{{ text }}” is also a {{ switch_name }} word.
+      <a href="{{ switch_url }}">Translate it as {{ switch_name }} instead →</a></p>
+  {% endif %}
+
   {% if example %}
     <section class="example">
       <span class="label">Used in a sentence</span>
